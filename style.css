@@ -1,0 +1,120 @@
+body{
+   margin: 0;
+   padding: 0;
+   font: 1em sans-serif;
+}
+.homepage{
+   background-image: url('./pic/homepage.jpg');
+   background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  color: white; 
+}
+.homepage h3{
+   background-color: azure;
+   color: black;
+   border-radius: 5px;
+   padding: 3px;
+}
+.do-home{
+   display: flex;
+   margin: 8px;
+   width: 30vh;
+   background-color: rgb(144, 71, 150);
+   border-radius: 20px;
+   text-align: center;
+   text-decoration: none;
+   padding: 3px;
+   justify-content: center;
+   cursor: pointer;
+   
+}
+.do-home a{
+   text-decoration: none;
+   cursor: pointer;
+   color: white;
+}
+.do-home:hover{
+   border-radius: 25px;
+   background-color: rgb(166, 42, 177);
+   color: aqua;
+}
+
+/* tips page */
+
+.tips-page{
+   background-image: url('./pic/homepage.jpg');
+   background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  text-align: center; 
+  color: rgb(10, 10, 10); 
+}
+.tips{
+   margin: 8px;
+   width: 60vh;
+   background-color: beige;
+   height: 38vh;
+   border-radius: 7px;
+   padding: 2px;
+   height: 25vh;
+}
+.choose{
+   display: flex;
+   margin: 8px;
+   width: 60vh;
+   background-color: beige;
+   height: 25vh;
+   border-radius: 7px;
+   padding: 3px;
+}
+.choose h5{
+   display: flex;
+   flex-direction: column;
+}
+.click a{
+   display: flex;
+   margin: 8px;
+   width: 20vh;
+   background-color: rgb(114, 216, 219);
+   border-radius: 7px;
+   text-align: center;
+   text-decoration: none;
+   padding: 3px;
+   justify-content: center;
+   cursor: pointer;
+   color: whitesmoke;
+}
+
+/* for design of picture tutorial */
+
+.pic-tech{
+   background-image: url('./pic/tutorial.jpg');
+   width: 70vh;
+   height: 30vh;
+   background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+   background: cover;
+   display: flex;
+   border: solid, whitesmoke, 6px;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+.pic-tech ::after{
+   border: solid, rgb(75, 136, 140), 6px;
+}
+.pic-tech :hover{
+   border: solid, rgb(117, 212, 231), 7px;
+}
